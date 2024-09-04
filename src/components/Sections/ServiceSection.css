@@ -1,14 +1,6 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-    /*insures doesnt cover any other content*/
-}
 
-.section-container {
-    /*background: url('') center center/cover no-repeat; /*add image instead of video*/
+.service-container {
+    background: url('/public/images/service-background.jpg') center center/cover no-repeat; /*add image instead of video*/
     height: 100vh;
     width: 100%;
     display: flex;
@@ -19,14 +11,14 @@ video {
     object-fit: contain;
 }
 
-.section-container>h1 {
+.service-container>h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
 
 }
 
-.section-container>p {
+.service-container>p {
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
@@ -34,21 +26,9 @@ video {
 
 }
 
-.section-btns {
-    margin-top: 32px;
-
-}
-
-.section-btns .btn {
-    margin: 6px;
-}
-
-.faPhone {
-    margin-left: 4px;
-}
 
 @media screen and (max-width: 960px) {
-    .section-container>h1 {
+    .service-container>h1 {
         font-size: 70px;
         margin-top: -150px;
 
@@ -56,15 +36,15 @@ video {
 }
 
 @media screen and (max-width: 768px) {
-    .section-container>h1 {
+    .service-container>h1 {
         font-size: 50px;
         margin-top: -100px;
 
     }
 
-    .section-container>p {
+    .service-container>p {
         font-size: 30px;
     }
 
-
+    
 }

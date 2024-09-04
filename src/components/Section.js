@@ -1,37 +1,45 @@
-import React from 'react'
-import '../App.css'
+// Section.js
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons'; // Import the specific icon
-import { Button } from './Button'
-import './Section.css'
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Button } from './Button';
+import './Section.css';
 
 function Section() {
-    
+  const navigate = useNavigate();
+
+  const handleNavigateToAbout = () => {
+    navigate('/about'); // Navigate to the About page
+  };
+
+  const handleNavigateToContact = () => {
+    navigate('/contact'); // Navigate to the Contact page
+  };
+
   return (
     <div className='section-container'>
-    <video src="/videos/digitalworld.mp4" autoPlay loop muted/>
-    <h1> Erence Developers</h1>
-    <p>We craft in digital excellence</p>
-    <br/>
+      <video src="/videos/digitalworld.mp4" autoPlay loop muted />
+      <h1>Erence Developers</h1>
+      <p>We craft in digital excellence</p>
+      <br />
       <div className="section-btns">
-        <Button 
-        className='btns' 
-        buttonStyle='btn--outline'
-        buttonSize='btn--large'
+        <button
+          className='btns btn--outline btn--large'
+          onClick={handleNavigateToAbout}
         >
-        Get To Know Us
-        </Button>
+          Get To Know Us
+        </button>
 
-        <Button 
-        className='btns' 
-        buttonStyle='btn--primary'
-        buttonSize='btn--large'
+        <button
+          className='btns btn--primary btn--large'
+          onClick={handleNavigateToContact}
         >
-                  Contact Us <FontAwesomeIcon icon={faPhone} />
-        </Button>
+          Contact Us <FontAwesomeIcon icon={faPhone} />
+        </button>
       </div>
     </div>
-  )
+  );
 }
 
-export default Section
+export default Section;

@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Home from './components/pages/home'
 import Services from './components/pages/Services';
@@ -16,7 +17,7 @@ function App() {
    <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/home" element={<Home/>}/>
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />

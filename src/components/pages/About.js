@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutSection from '../AboutSection'
+import AboutSection from '../Sections/AboutSection'
 import Footer from '../Footer'
 import '../../App.css'
 
