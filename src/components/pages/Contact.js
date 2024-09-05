@@ -1,14 +1,14 @@
 import React from 'react'
 import ContactSection from '../Sections/ContactSection'
-import ContactMiddle from '../MiddleSection/ContactMidSection'
 import Footer from '../Footer'
 import '../../App.css'
+import ContactMiddleSection from '../MiddleSection/ContactMiddleSection'
 
 function Contact() {
   return (
     <div>
       <ContactSection/>
-      <ContactMiddle />
+      <ContactMiddleSection/>
       <Footer/>
     </div>
   )

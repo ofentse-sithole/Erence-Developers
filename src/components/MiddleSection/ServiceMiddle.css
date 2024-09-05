@@ -1,0 +1,92 @@
+.service-page {
+    background-color: #fff;
+    /* White background for the entire page */
+    width: 100%;
+    min-height: 100vh;
+    /* Full viewport height */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* Include padding in width and height */
+}
+
+/* Section Styles */
+.service-section,
+.web-development,
+.mobile-development {
+    width: 100%;
+    max-width: 1500px;
+    /* Limit the maximum width for better readability */
+    padding: 40px 20px;
+    text-align: left;
+    /* Left-align text for a more traditional look */
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Heading styles */
+h2 {
+    font-size: 3em;
+    color: #007bff;
+    /* Primary color for headings */
+    margin-bottom: 20px;
+    text-align: center;
+    /* Center headings for emphasis */
+}
+
+h3 {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.5em;
+    /* Adjusted font size for readability */
+    color: #0f0f0f;
+    line-height: 1.8;
+    /* Increased line height for better spacing */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    /* Allow more width for paragraph text */
+    text-align: justify;
+    /* Justify text to fill the space */
+    padding: 0 20px;
+    /* Add padding for inner spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-page {
+        padding: 20px;
+    }
+
+    .service-section,
+    .web-development,
+    .mobile-development {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+        padding: 0 10px;
+        /* Less padding on smaller screens */
+    }
+}

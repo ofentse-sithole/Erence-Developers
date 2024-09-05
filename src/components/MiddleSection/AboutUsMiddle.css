@@ -1,0 +1,110 @@
+
+
+/* General styles for the About Us page */
+.about-page {
+    background-color: #fff;
+    /* White background for the entire page */
+    width: 100%;
+    min-height: 100vh;
+    /* Full viewport height */
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* Include padding in width and height */
+}
+
+/* Section Styles */
+section {
+    width: 100%;
+    max-width: 1500px;
+    /* Limit the maximum width for better readability */
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #fff7f7;
+    /* Subtle shadow for depth */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+/* Heading styles */
+h2 {
+    font-size: 3em;
+    color: #007bff;
+    /* Primary color for headings */
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.5em; /* Adjusted font size for readability */
+    color: #0f0f0f;
+    line-height: 1.8; /* Increased line height for better spacing */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Allow more width for paragraph text */
+    text-align: justify; /* Justify text to fill the space */
+    padding: 0 20px; /* Add padding for inner spacing */
+}
+
+/* Our Values Section */
+#about-values {
+    background-color: #ffffff; /* White background */
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#about-values ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+}
+
+#about-values li {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#about-values li:before {
+    content: '•'; /* Add bullet point */
+    color: #007bff; /* Bullet color */
+    position: absolute;
+    left: 0;
+    font-size: 1.3em;
+    top: 0;
+}
+
+#about-values strong {
+    color: #007bff; /* Highlight the value names */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-page {
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

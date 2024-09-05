@@ -1,162 +1,115 @@
-.footer-container {
-    background-color: #242424;
-    padding: 4rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-subscription {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* General styles for the Footer */
+.footer {
+    background-color: #f0f0f0; /* Light grey background color */
+    padding: 20px 0;
     text-align: center;
-
-    margin-bottom: 24px;
-    padding: 24px;
-    color: #fff;
-}
-
-.footer-subscription>p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
-}
-
-.footer-subscription-heading {
-    margin-bottom: 24px;
-    font-size: 24px;
-}
-
-.footer-subscription-text {
-    margin-bottom: 24px;
-    font-size: 20px;
-}
-
-.footer-input {
-    padding: 8px 20px;
-    border-radius: 2px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 16px;
-    border: 1px solid #fff;
-}
-
-.footer-links {
+    color: #333; /* Darker text color for contrast */
     width: 100%;
-    max-width: 1000px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.footer-link-wrapper {
+/* Styles for the footer links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
     display: flex;
+    gap: 40px;
 }
 
-.footer-link-items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
+.footer-links > li {
+    position: relative;
+}
+
+.footer-links > li a {
+    color: #333; /* Darker text color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links > li a:hover {
+    color: #007bff; /* Hover color */
+}
+
+/* Styles for the sub-links */
+.footer-sub-links {
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
     text-align: left;
-    width: 160px;
-    box-sizing: border-box;
+    display: none; /* Hide by default */
+    position: absolute;
+    left: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    width: 180px;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.footer-link-items h2 {
-    margin-bottom: 16px;
+.footer-links > li:hover .footer-sub-links {
+    display: block; /* Show on hover */
 }
 
-.footer-link-items>h2 {
-    color: #fff;
+.footer-sub-links li {
+    padding: 5px 10px;
 }
 
-.footer-link-items a {
-    color: #fff;
+.footer-sub-links li a {
+    color: #333;
     text-decoration: none;
-    margin-bottom: 0.5rem;
+    font-weight: normal;
+    display: block;
 }
 
-.footer-link-items a:hover {
-    color: #e9e9e9;
-    transition: 0.3s ease-out;
+.footer-sub-links li a:hover {
+    color: #007bff; /* Hover color */
 }
 
-.footer-email-form h2 {
-    margin-bottom: 2rem;
-}
-
-.footer-input::placeholder {
-    color: #b1b1b1;
-}
-
-/* Social Icons */
-.social-icon-link {
-    color: #fff;
-    font-size: 24px;
-}
-
-.social-media {
-    max-width: 1000px;
-    width: 100%;
-}
-
-.social-media-wrap {
+/* Social Links Styles */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto 0 auto;
+    gap: 15px;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px;
-}
-
-.social-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
+.social-links li a {
+    color: #007bff; /* Link color */
     text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 16px;
+    transition: color 0.3s;
 }
 
-.website-rights {
-    color: #fff;
-    margin-bottom: 16px;
+.social-links li a:hover {
+    color: #0056b3; /* Hover color */
 }
 
-@media screen and (max-width: 820px) {
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 0 10px;
+    }
+
     .footer-links {
-        padding-top: 2rem;
-    }
-
-    .footer-input {
-        width: 100%;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .footer-link-wrapper {
         flex-direction: column;
+        align-items: center;
     }
 
-    .social-media-wrap {
-        flex-direction: column;
+    .footer-sub-links {
+        position: static;
+        text-align: center;
     }
 }
-
-@media screen and (max-width: 768px) {}
