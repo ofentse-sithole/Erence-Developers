@@ -1,115 +1,62 @@
-/* General styles for the Footer */
 .footer {
-    background-color: #f0f0f0; /* Light grey background color */
+    background-color: #333;
+    color: #fff;
     padding: 20px 0;
-    text-align: center;
-    color: #333; /* Darker text color for contrast */
     width: 100%;
-    position: relative;
-    bottom: 0;
+    text-align: center;
+    /* Center the text */
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    /* Center the columns */
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* Add margin to ensure space for footer-bottom */
 }
 
-/* Styles for the footer links */
-.footer-links {
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
     list-style: none;
     padding: 0;
-    margin-top: 10px;
-    display: flex;
-    gap: 40px;
 }
 
-.footer-links > li {
-    position: relative;
+.footer-column ul li {
+    margin-bottom: 5px;
 }
 
-.footer-links > li a {
-    color: #333; /* Darker text color for links */
+.footer-column ul li a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
-.footer-links > li a:hover {
-    color: #007bff; /* Hover color */
+.footer-column ul li a:hover {
+    text-decoration: underline;
 }
 
-/* Styles for the sub-links */
-.footer-sub-links {
-    list-style: none;
-    padding: 5px 0;
-    margin: 0;
-    text-align: left;
-    display: none; /* Hide by default */
-    position: absolute;
-    left: 0;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    width: 180px;
-    z-index: 100;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.footer-links > li:hover .footer-sub-links {
-    display: block; /* Show on hover */
-}
-
-.footer-sub-links li {
-    padding: 5px 10px;
-}
-
-.footer-sub-links li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: normal;
-    display: block;
-}
-
-.footer-sub-links li a:hover {
-    color: #007bff; /* Hover color */
-}
-
-/* Social Links Styles */
-.social-links {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-    display: flex;
-    gap: 15px;
-}
-
-.social-links li a {
-    color: #007bff; /* Link color */
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-links li a:hover {
-    color: #0056b3; /* Hover color */
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .footer-content {
-        padding: 0 10px;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-sub-links {
-        position: static;
-        text-align: center;
-    }
+.footer-bottom {
+    width: 100%;
+    /* Ensure it spans the full width */
+    padding-top: 10px;
+    /* Add some padding for spacing */
+    border-top: 1px solid #444;
+    /* Optional: Add a top border for separation */
+    margin-top: 20px;
+    /* Adds spacing above the bottom text */
+    text-align: center;
+    /* Center-align the text */
+    background-color: red;
+    /* Add a background color to help with debugging */
+    clear: both;
+    /* Add a clear style to help with layout issues */
 }
