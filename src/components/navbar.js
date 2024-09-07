@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 function Navbar() {
@@ -17,8 +17,7 @@ function Navbar() {
                 <div className="navbar-container">
                     {/* Logo navigation using Link */}
                     <Link to="/home" className="navbar-logo" onClick={closeMobileMenu}>
-                        Erence Developers
-                        <FontAwesomeIcon icon={faLaptopCode} />
+                        <img src="/images/6-removebg-preview.png" alt="Erence Developers Logo" className="navbar-image" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <FontAwesomeIcon icon={click ? faTimes : faBars} />

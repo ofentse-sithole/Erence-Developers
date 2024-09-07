@@ -5,29 +5,43 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer-content">
+
                 <div className="footer-column">
-                    <h4>About Us</h4>
+                    <h4>Home</h4>
                     <ul>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#about-values">Our Values</a></li>
-                        <li><a href="#about-mission">Our Mission</a></li>
-                        <li><a href="#about-choose-us">Why choose us?</a></li>
+                        <li><a href="/home#about">About</a></li>
+                        <li><a href="/home#service">Service</a></li>
+                        <li><a href="/home#project">Projects</a></li>
+                        <li><a href="/home#testimonial">Testimonials</a></li>
                     </ul>
                 </div>
+
                 <div className="footer-column">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="#web-development">Web Development</a></li>
-                        <li><a href="#mobile-development">Mobile Development</a></li>
-                        <li><a href="#custom-solutions">Custom Solutions</a></li>
+                        <li><a href="/services#web-development">Web Development</a></li>
+                        <li><a href="/services#mobile-development">Mobile Development</a></li>
+                        <li><a href="/services#custom-development">Custom Development</a></li>
                     </ul>
                 </div>
+
+                <div className="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="/about#about-us">About Us</a></li>
+                        <li><a href="/about#about-values">Our Values</a></li>
+                        <li><a href="/about#about-mission">Our Mission</a></li>
+                        <li><a href="/about#about-choose-us">Why choose us?</a></li>
+                    </ul>
+                </div>
+                
                 <div className="footer-column">
                     <h4>Contact Us</h4>
                     <ul>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="/contact#contact">Contact Us</a></li>
                     </ul>
                 </div>
+
                 <div className="footer-column">
                     <h4>Social Media</h4>
                     <ul>

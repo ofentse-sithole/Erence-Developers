@@ -14,6 +14,47 @@ function AboutUsMiddleSection() {
         </p>
         </section>
 
+      <section id="about-values" className="about-erence">
+        <h2>Our Values</h2>
+        <p>At Erence Developers, our values guide us in every project and interaction,
+          ensuring we deliver the best for our clients and our community.</p>
+        <ul>
+          <li><strong>Innovation:</strong> At Erence Developers, we believe in the power
+            of innovation to drive progress. We constantly explore new
+            technologies and creative solutions to deliver cutting-edge
+            digital experiences that exceed client expectations.</li>
+
+          <li><strong>Quality:</strong> Quality is at the heart of everything we do.
+            Our commitment to excellence ensures that every project
+            is crafted with precision, attention to detail, and the highest
+            standards of professionalism.</li>
+
+          <li><strong>Integrity:</strong> We uphold the principles of honesty and transparency in all our
+            dealings. Building trust with our clients, partners, and team members
+            is fundamental to our success and the foundation of our reputation.</li>
+
+          <li><strong>Customer-Centric Approach:</strong> Our clients are our top priority. We take the time to
+            understand their needs, goals, and vision, ensuring that
+            we provide personalized solutions and a seamless experience
+            from start to finish.</li>
+
+          <li><strong>Collaboration:</strong> We foster a collaborative environment where
+            ideas and expertise are shared freely. By working closely with our
+            clients and partners, we achieve better outcomes and create meaningful,
+            impactful digital solutions.</li>
+
+          <li><strong>Continuous Improvement:</strong> We are dedicated to continuous learning and improvement.
+            Embracing feedback and staying abreast of industry trends allows
+            us to adapt and grow, delivering value-driven results in an
+            ever-evolving digital landscape.</li>
+
+          <li><strong>Sustainability:</strong> We recognize the importance of sustainability and are committed to making
+            responsible choices that benefit both our business and the environment.
+            We aim to create digital solutions that are efficient, effective, and
+            environmentally conscious.</li>
+        </ul>
+      </section>
+
       {/* Our Mission Section */}
       <section id="about-mission" className="our-mission">
         <h2>Our Mission</h2>
@@ -46,47 +87,6 @@ function AboutUsMiddleSection() {
           business in need of a digital makeover, Erence Developers is here to 
           help you achieve your goals.
         </p>
-      </section>
-
-      <section id="about-values" className="about-erence">
-        <h2>Our Values</h2>
-        <p>At Erence Developers, our values guide us in every project and interaction, 
-        ensuring we deliver the best for our clients and our community.</p>
-        <ul>
-          <li><strong>Innovation:</strong> At Erence Developers, we believe in the power 
-                                            of innovation to drive progress. We constantly explore new 
-                                            technologies and creative solutions to deliver cutting-edge 
-                                            digital experiences that exceed client expectations.</li>
-
-          <li><strong>Quality:</strong> Quality is at the heart of everything we do. 
-                                        Our commitment to excellence ensures that every project 
-                                        is crafted with precision, attention to detail, and the highest 
-                                        standards of professionalism.</li>
-
-          <li><strong>Integrity:</strong> We uphold the principles of honesty and transparency in all our 
-                                          dealings. Building trust with our clients, partners, and team members 
-                                          is fundamental to our success and the foundation of our reputation.</li>
-
-          <li><strong>Customer-Centric Approach:</strong> Our clients are our top priority. We take the time to 
-                                                          understand their needs, goals, and vision, ensuring that 
-                                                          we provide personalized solutions and a seamless experience 
-                                                          from start to finish.</li>
-
-          <li><strong>Collaboration:</strong> We foster a collaborative environment where 
-                                              ideas and expertise are shared freely. By working closely with our 
-                                              clients and partners, we achieve better outcomes and create meaningful, 
-                                              impactful digital solutions.</li>
-
-          <li><strong>Continuous Improvement:</strong> We are dedicated to continuous learning and improvement. 
-                                                        Embracing feedback and staying abreast of industry trends allows 
-                                                        us to adapt and grow, delivering value-driven results in an 
-                                                        ever-evolving digital landscape.</li>
-
-          <li><strong>Sustainability:</strong> We recognize the importance of sustainability and are committed to making 
-                                                responsible choices that benefit both our business and the environment. 
-                                                We aim to create digital solutions that are efficient, effective, and 
-                                                environmentally conscious.</li>
-        </ul>
       </section>
 
     </div>

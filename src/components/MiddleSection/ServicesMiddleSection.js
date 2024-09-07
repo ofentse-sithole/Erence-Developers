@@ -26,13 +26,29 @@ function ServicesMiddleSection() {
 
             {/* Coming Soon: Mobile Development Section */}
           <section id="mobile-development" className="mobile-development">
-                <h3>Coming Soon: Mobile Development</h3>
+                <h3>Mobile Development</h3>
                 <p>
                     Stay tuned for our new mobile development services, designed to bring your ideas 
                     to life on any device. Our mobile solutions will be tailored to enhance user 
                     engagement and provide a seamless experience across all platforms.
                 </p>
             </section>
+
+          {/* Coming Soon: Mobile Development Section */}
+          <section id="custom-development" className="mobile-development">
+              <h3>Custom Development</h3>
+              <p>
+                  We understand that every business has unique requirements. 
+                  That's why we offer custom software development solutions 
+                  tailored to your specific needs. Our team is skilled in 
+                  creating bespoke applications, systems integrations, and 
+                  automation tools that enhance your business operations. 
+                  Whether you need a custom CRM, inventory management system, 
+                  or any other specialized software, we can build a solution that 
+                  fits your goals perfectly. Our custom solutions are designed to 
+                  improve efficiency, reduce costs, and drive growth.
+              </p>
+          </section>
         </div>
   )
 }

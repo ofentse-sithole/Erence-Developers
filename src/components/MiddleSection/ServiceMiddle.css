@@ -18,16 +18,11 @@
 .mobile-development {
     width: 100%;
     max-width: 1500px;
-    /* Limit the maximum width for better readability */
     padding: 40px 20px;
     text-align: left;
-    /* Left-align text for a more traditional look */
     margin-bottom: 40px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
+    background-color: #fff;
     border-radius: 8px;
-    /* Rounded corners */
 }
 
 /* Heading styles */
@@ -49,7 +44,7 @@ h3 {
 
 /* Paragraph styles */
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     /* Adjusted font size for readability */
     color: #0f0f0f;
     line-height: 1.8;

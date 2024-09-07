@@ -3,59 +3,51 @@
 /* General styles for the About Us page */
 .about-page {
     background-color: #fff;
-    /* White background for the entire page */
     width: 100%;
     min-height: 100vh;
-    /* Full viewport height */
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    /* Include padding in width and height */
 }
 
 /* Section Styles */
 section {
     width: 100%;
     max-width: 1500px;
-    /* Limit the maximum width for better readability */
     padding: 40px 20px;
     text-align: center;
     margin-bottom: 40px;
     background-color: #fff;
     box-shadow: 0 2px 4px #fff7f7;
-    /* Subtle shadow for depth */
     border-radius: 4px;
-    /* Rounded corners */
 }
 
 /* Heading styles */
 h2 {
     font-size: 3em;
     color: #007bff;
-    /* Primary color for headings */
     margin-bottom: 20px;
 }
 
 /* Paragraph styles */
 p {
-    font-size: 1.5em; /* Adjusted font size for readability */
+    font-size: 1.2em; 
     color: #0f0f0f;
-    line-height: 1.8; /* Increased line height for better spacing */
+    line-height: 1.8; 
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px; /* Allow more width for paragraph text */
-    text-align: justify; /* Justify text to fill the space */
-    padding: 0 20px; /* Add padding for inner spacing */
+    max-width: 1200px;
+    text-align: justify; 
+    padding: 0 20px; 
 }
 
 /* Our Values Section */
 #about-values {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
     padding: 60px 20px;
     text-align: justify;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-bottom: 40px;
 }
@@ -65,7 +57,7 @@ p {
     margin: 0 auto;
     max-width: 800px;
     padding: 0;
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none; 
 }
 
 #about-values li {
