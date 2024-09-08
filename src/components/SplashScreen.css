@@ -14,7 +14,7 @@
 }
 
 .splash-logo {
-    width: 250px;
+    width: 350px;
     height: auto;
 }
 
@@ -27,5 +27,14 @@
         opacity: 0;
         visibility: hidden;
         /* Makes the splash screen invisible after fading out */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+        .splash-logo {
+        width: 300px;
+        height: auto;
+        align-items: center;
     }
 }
