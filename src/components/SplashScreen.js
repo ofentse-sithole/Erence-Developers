@@ -13,7 +13,7 @@ function SplashScreen({ onLoadComplete }) {
 
     return (
         <div className="splash-screen">
-            <img src="/images/6-removebg-preview.png" alt="Erence Developers Logo" className="splash-logo" />
+            <img src="/images/2.png" alt="Erence Developers Logo" className="splash-logo" />
         </div>
     );
 }

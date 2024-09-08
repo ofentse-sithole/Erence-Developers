@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Import useState hook
+import React, { useState } from 'react'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Home from './components/pages/home';
@@ -12,10 +12,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true); // Initialize useState hook
+  const [isLoading, setIsLoading] = useState(true); 
 
   const handleLoadComplete = () => {
-    setIsLoading(false); // Close the handleLoadComplete function properly
+    setIsLoading(false); 
   };
 
   return (
