@@ -1,29 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react'; // Import useState hook
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Home from './components/pages/home';
 import Services from './components/pages/Services';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
+import SplashScreen from './components/SplashScreen';
 
-/*adding this because of react-dom*/
+/*adding this because of react-router-dom*/
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true); // Initialize useState hook
+
+  const handleLoadComplete = () => {
+    setIsLoading(false); // Close the handleLoadComplete function properly
+  };
+
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} /> {/* Default route */}
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      {isLoading ? (
+        <SplashScreen onLoadComplete={handleLoadComplete} />
+      ) : (
+        <>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} /> {/* Default route */}
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </>
+      )}
+    </Router>
   );
 }
 

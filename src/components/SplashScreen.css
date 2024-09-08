@@ -1,0 +1,31 @@
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    animation: fadeOut 1s ease-in-out forwards; 
+    animation-delay: 2s;
+}
+
+.splash-logo {
+    width: 250px;
+    height: auto;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        /* Makes the splash screen invisible after fading out */
+    }
+}
