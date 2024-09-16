@@ -1,8 +1,44 @@
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import './HomeMiddle.css';
+import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
+import 'react-horizontal-scrolling-menu/dist/styles.css';
 
 function HomeMiddleSection() {
+
+    const [activeSlide, setActiveSlide] = useState(0); // For active slide
+    const logos = [
+        { id: 1, name: 'Tacit Group Supply Co.', img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png', url: 'https://tacit-group-supply-co-yacx.vercel.app/'}
+    ];
+
+    // Auto-slide every 5 seconds
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setActiveSlide((prevSlide) => (prevSlide + 1) % logos.length); // Slide to the next logo
+        }, 5000); // 5000ms = 5 seconds
+
+        return () => clearInterval(interval); // Clear interval on unmount
+    }, [logos.length]);
+
+
+    const LeftArrow = () => {
+        const { isFirstItemVisible, scrollPrev } = React.useContext(VisibilityContext);
+        return <button disabled={isFirstItemVisible} onClick={() => scrollPrev()}>{"<"}</button>;
+    };
+
+    const RightArrow = () => {
+        const { isLastItemVisible, scrollNext } = React.useContext(VisibilityContext);
+        return <button disabled={isLastItemVisible} onClick={() => scrollNext()}>{">"}</button>;
+    };
+
+    const LogoItem = ({ src, alt, url }) => (
+        <div className="logo-item">
+            <a href={url} target="_blank" rel="noopener noreferrer">
+                <img src={src} alt={alt} className="client-logo" />
+            </a>
+        </div>
+    );
+
 
     const navigate = useNavigate(); // Initialize the useNavigate hook
 
@@ -97,6 +133,18 @@ function HomeMiddleSection() {
                             <span className="project-count">{projectCount}</span>
                         </div>
                     </section>
+                </div>
+
+                <div className="home-middle-section">
+                    {/* Client logo */}
+                    <div className="client-logo-section">
+                        <h2>Our Clients</h2>
+                        <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+                            {logos.map(({ id, img, name, url }) => (
+                                <LogoItem key={id} src={img} alt={name} url={url} />
+                            ))}
+                        </ScrollMenu>
+                    </div>
                 </div>
 
             {/* Testimonials Section */}

@@ -4,16 +4,13 @@
     padding: 20px 0;
     width: 100%;
     text-align: center;
-    /* Center the text */
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
-    /* Center the columns */
     flex-wrap: wrap;
     margin-bottom: 20px;
-    /* Add margin to ensure space for footer-bottom */
 }
 
 .footer-column {
@@ -46,18 +43,11 @@
 
 .footer-bottom {
     width: 100%;
-    /* Ensure it spans the full width */
     padding-top: 10px;
-    /* Add some padding for spacing */
     border-top: 1px solid #444;
-    /* Optional: Add a top border for separation */
     margin-top: 20px;
-    /* Adds spacing above the bottom text */
     text-align: right;
-    /* Center-align the text */
     background: linear-gradient(90deg, rgb(61, 102, 249) 0%, rgb(87, 0, 105) 100%);
-    /* Add a background color to help with debugging */
     clear: both;
-    /* Add a clear style to help with layout issues */
     color:#fff;
 }

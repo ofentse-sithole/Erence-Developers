@@ -1,7 +1,11 @@
-import React from 'react'
-import '../Section.css'
+import React, {useEffect} from 'react';
+import '../Section.css';
 
 function ContactSection() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
       <div className='section-container'>
           <video src="/videos/globalization.mp4" autoPlay loop muted />

@@ -1,5 +1,5 @@
 // Section.js
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +7,10 @@ import { Button } from './Button';
 import './Section.css';
 
 function Section() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
 
   const handleNavigateToAbout = () => {
