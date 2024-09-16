@@ -135,9 +135,9 @@ function HomeMiddleSection() {
                     </section>
                 </div>
 
-                <div className="home-middle-section">
+                <div id="client" className="home-middle-section">
                     {/* Client logo */}
-                    <div className="client-logo-section">
+                    <div  className="client-logo-section">
                         <h2>Our Clients</h2>
                         <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
                             {logos.map(({ id, img, name, url }) => (

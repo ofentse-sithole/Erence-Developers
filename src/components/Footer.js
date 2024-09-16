@@ -12,6 +12,7 @@ function Footer() {
                         <li><a href="/home#about">About</a></li>
                         <li><a href="/home#service">Service</a></li>
                         <li><a href="/home#project">Projects</a></li>
+                        <li><a href="/home#clients">Our Clients</a></li>
                         <li><a href="/home#testimonial">Testimonials</a></li>
                     </ul>
                 </div>
@@ -22,6 +23,7 @@ function Footer() {
                         <li><a href="/services#web-development">Web Development</a></li>
                         <li><a href="/services#mobile-development">Mobile Development</a></li>
                         <li><a href="/services#custom-development">Custom Development</a></li>
+                        <li><a href="/services#web-hosting">Website Hosting</a></li>
                     </ul>
                 </div>
 

@@ -49,6 +49,20 @@ function ServicesMiddleSection() {
                   improve efficiency, reduce costs, and drive growth.
               </p>
           </section>
+
+      {/* Coming Soon: Mobile Development Section */}
+      <section id="web-hosting" className="mobile-development">
+        <h3>Website Hosting</h3>
+        <p>
+          At Erence Developers, we offer reliable and secure 
+          website hosting solutions to ensure your online 
+          presence is always accessible. Our hosting services 
+          provide the necessary technology and resources to keep your 
+          website running smoothly, with 24/7 support and advanced security 
+          measures. Whether you’re launching a new site or looking to improve 
+          your current hosting, we have the expertise to meet your needs.
+        </p>
+      </section>
         </div>
   )
 }
