@@ -82,6 +82,8 @@ p {
     p {
         font-size: 1em;
         padding: 0 10px;
+        line-height: 1.5; /* Adjust line height for better spacing */
+        margin: 0 10px; /* Reduce margin for better fit */
         /* Less padding on smaller screens */
     }
 }

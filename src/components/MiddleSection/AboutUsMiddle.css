@@ -1,5 +1,3 @@
-
-
 /* General styles for the About Us page */
 .about-page {
     background-color: #fff;
@@ -13,7 +11,7 @@
 }
 
 /* Section Styles */
-section {
+.section {
     width: 100%;
     max-width: 1500px;
     padding: 40px 20px;
@@ -33,19 +31,19 @@ h2 {
 
 /* Paragraph styles */
 p {
-    font-size: 1.2em; 
+    font-size: 1.2em;
     color: #0f0f0f;
-    line-height: 1.8; 
+    line-height: 1.8;
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-    text-align: justify; 
-    padding: 0 20px; 
+    text-align: justify;
+    padding: 0 20px;
 }
 
 /* Our Values Section */
 #about-values {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 60px 20px;
     text-align: justify;
     border-radius: 8px;
@@ -57,7 +55,7 @@ p {
     margin: 0 auto;
     max-width: 800px;
     padding: 0;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 #about-values li {
@@ -81,22 +79,25 @@ p {
     color: #007bff; /* Highlight the value names */
 }
 
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .about-page {
         padding: 20px;
     }
 
-    section {
-        padding: 20px;
+    .section {
+        padding: 20px 10px; /* Reduced padding for smaller screens */
+        max-width: 100%; /* Make sure it fits smaller screens */
     }
 
     h2 {
-        font-size: 1.8em;
+        font-size: 1.8em; /* Reduce font size for small devices */
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.9em; /* Reduce font size for readability on smaller screens */
+        line-height: 1.6; /* Adjust line height for better spacing */
+        margin: 0 10px; /* Reduce margin for better fit */
+        text-align: justify; /* Justify text for better alignment */
     }
 }

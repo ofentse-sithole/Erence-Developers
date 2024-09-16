@@ -31,8 +31,8 @@ function Footer() {
                     <h4>About Us</h4>
                     <ul>
                         <li><a href="/about#about-us">About Us</a></li>
-                        <li><a href="/about#about-values">Our Values</a></li>
                         <li><a href="/about#about-mission">Our Mission</a></li>
+                        <li><a href="/about#about-values">Our Values</a></li>
                         <li><a href="/about#about-choose-us">Why choose us?</a></li>
                     </ul>
                 </div>

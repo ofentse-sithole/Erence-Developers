@@ -14,6 +14,15 @@ function AboutUsMiddleSection() {
         </p>
         </section>
 
+      {/* Our Mission Section */}
+      <section id="about-mission" className="our-mission">
+        <h2>Our Mission</h2>
+        <p>
+          At Erence Developers, our mission is to transform your ideas into digital experiences that engage and inspire.
+          We aim to empower businesses with cutting-edge web and mobile solutions that drive growth and success.
+        </p>
+      </section>
+
       <section id="about-values" className="about-erence">
         <h2>Our Values</h2>
         <p>At Erence Developers, our values guide us in every project and interaction,
@@ -55,36 +64,28 @@ function AboutUsMiddleSection() {
         </ul>
       </section>
 
-      {/* Our Mission Section */}
-      <section id="about-mission" className="our-mission">
-        <h2>Our Mission</h2>
-        <p>
-          At Erence Developers, our mission is to transform your ideas into digital experiences that engage and inspire. 
-          We aim to empower businesses with cutting-edge web and mobile solutions that drive growth and success.
-        </p>
-      </section>
+      
 
       {/* About Erence Developers Section */}
       <section id="about-choose-us" className="about-erence">
         <h2>Why Choose Erence Developers?</h2>
         <p>
-          At Erence Developers, we believe that every business deserves a unique digital identity. 
-          We don't just build websites; we craft custom digital experiences tailored to the specific 
-          goals of each client. Our approach combines creativity, innovation, and the latest technology 
+          At Erence Developers, we believe that every business deserves a unique digital identity.
+          We don't just build websites; we craft custom digital experiences tailored to the specific
+          goals of each client. Our approach combines creativity, innovation, and the latest technology
           to ensure that every project we undertake stands out in the digital landscape.
         </p>
-        <br/>
+        <br />
         <p>
-          Our core values are centered around client satisfaction, quality, and continuous 
-          improvement. We work closely with our clients to understand their needs and provide 
-          solutions that exceed expectations. With a commitment to transparency, collaboration, 
-          and excellence, Erence Developers is your trusted partner in navigating the digital world.
+          Our core values are centered around client satisfaction, quality, and continuous
+          improvement. We work closely with our clients to understand their needs and provide
+          solutions that exceed expectations. With a commitment to transparency, collaboration, and excellence, Erence Developers is your trusted partner in navigating the digital world.
         </p>
-        <br/>
+        <br />
         <p>
-          From concept to launch, we take pride in being part of your journey. 
-          Whether you're a startup looking for a fresh, modern website or an established 
-          business in need of a digital makeover, Erence Developers is here to 
+          From concept to launch, we take pride in being part of your journey.
+          Whether you're a startup looking for a fresh, modern website or an established
+          business in need of a digital makeover, Erence Developers is here to
           help you achieve your goals.
         </p>
       </section>
