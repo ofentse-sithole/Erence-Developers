@@ -1,5 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css'; // Make sure to create and import a CSS file
+import { faFacebook, faInstagramSquare, faLinkedinIn, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
@@ -47,8 +50,9 @@ function Footer() {
                 <div className="footer-column">
                     <h4>Social Media</h4>
                     <ul>
-                        <li><a href="https://www.instagram.com/erence_developers/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/erence-developers" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/erence_developers/?hl=en" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} /></a></li>
+                        <li><a href="https://www.linkedin.com/company/erence-developers" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
+                        <li><a href="https://web.facebook.com/profile.php?id=61565941095239" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
                     </ul>
                 </div>
             </div>
