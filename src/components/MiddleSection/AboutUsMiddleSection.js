@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutUsMiddle.css'
+import './HomeMiddle.css'
 
 function AboutUsMiddleSection() {
   return (
@@ -8,7 +9,7 @@ function AboutUsMiddleSection() {
       <div id="about-values" className="about-erence">
         {/* About Us Section */}
         <div className="about-us">
-        <h2 id="about-us" >About Us</h2>
+        <h3 id="about-us" >About Us</h3>
         <p>
           Erence Developers is dedicated to delivering high-quality website development services.
           Our team of experts is passionate about creating stunning websites that meet your needs.
@@ -18,7 +19,7 @@ function AboutUsMiddleSection() {
         <br/>
         <br/>
         {/* Our Mission Section */}
-        <h2 id="about-mission">Our Mission</h2>
+        <h3 id="about-mission">Our Mission</h3>
         <p>
           At Erence Developers, our mission is to transform your ideas into digital experiences that engage and inspire.
           We aim to empower businesses with cutting-edge web and mobile solutions that drive growth and success.
@@ -27,7 +28,7 @@ function AboutUsMiddleSection() {
         <br/>
         <br/>
         {/*Our Values Section*/}
-        <h2>Our Values</h2>
+        <h3>Our Values</h3>
         <p>At Erence Developers, our values guide us in every project and interaction, ensuring we deliver the best for our clients and our community.</p>
         <ul>
           <li><strong>Innovation:</strong> At Erence Developers, we believe in the power
@@ -69,7 +70,7 @@ function AboutUsMiddleSection() {
         <br/>
         <div className="about-erence">
         {/* About Erence Developers Section */}
-        <h2 id="about-choose-us" >Why Choose Erence Developers?</h2>
+        <h3 id="about-choose-us" >Why Choose Erence Developers?</h3>
         <p>
           At Erence Developers, we believe that every business deserves a unique digital identity.
           We don't just build websites; we craft custom digital experiences tailored to the specific

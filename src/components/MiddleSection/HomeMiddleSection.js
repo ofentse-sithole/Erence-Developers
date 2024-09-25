@@ -81,7 +81,7 @@ function HomeMiddleSection() {
 
             {/* About Us Section */}
             <div id="about" className="about-us">
-                <h2>About Us</h2>
+                <h3>About Us</h3>
                 <p>
                         Erence Developers is a forward-thinking technology company committed to 
                         delivering exceptional digital solutions tailored to your business needs. 
@@ -102,7 +102,7 @@ function HomeMiddleSection() {
 
             {/* Updated Services Section */}
             <div id="service" className="about-us">
-                <h2>Our Services</h2>
+                <h3>Our Services</h3>
                 <p>
                         At Erence Developers, we provide a comprehensive range of services 
                         designed to meet your digital needs. Our web development team creates 
@@ -127,7 +127,7 @@ function HomeMiddleSection() {
             {/* Portfolio Section */}
                 <div className="home-middle-section">
                     <div id="project" className="projects">
-                        <h2>Our Projects</h2>
+                        <h3>Our Projects</h3>
                         <p>Projects Completed Successfully</p>
                         <div className="project-box">
                             <span className="project-count">{projectCount}</span>
@@ -138,7 +138,7 @@ function HomeMiddleSection() {
                 <div id="client" className="home-middle-section">
                     {/* Client logo */}
                     <div  className="client-logo-section">
-                        <h2>Our Clients</h2>
+                        <h3>Our Clients</h3>
                         <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
                             {logos.map(({ id, img, name, url }) => (
                                 <LogoItem key={id} src={img} alt={name} url={url} />
@@ -149,7 +149,7 @@ function HomeMiddleSection() {
 
             {/* Testimonials Section */}
                 <div id="testimonial" className="testimonials">
-                <h2>What Our Clients Say</h2>
+                <h3>What Our Clients Say</h3>
                 <p>
                     "Erence Developers transformed our vision into a beautiful website. Highly recommended!"
                 </p>

@@ -1,9 +1,16 @@
-import React, {useRef} from 'react'
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import './ContactMiddle.css'
+import './ContactMiddle.css';
+import sendSound from '../sounds/send-sound.mp3'; // Adjust the path as needed
 
 function ContactMiddleSection() {
     const form = useRef();
+
+    // Function to play sound
+    const playSendSound = () => {
+        const audio = new Audio(sendSound);
+        audio.play();
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -11,10 +18,11 @@ function ContactMiddleSection() {
         emailjs.sendForm('service_kf0twnb', 'template_57je3xa', form.current, 't1cogETF_-3uCWd8O')
             .then((result) => {
                 alert('Message sent successfully!');
-                console.log(result.text); // Debugging: Logs success result
+                playSendSound(); // Play sound after successful email send
+                console.log(result.text);
             }, (error) => {
                 alert('An error occurred, please try again.');
-                console.error('EmailJS Error:', error); // Debugging: Logs error details
+                console.error('EmailJS Error:', error);
             });
 
         e.target.reset(); // Clear the form after submission
@@ -23,12 +31,11 @@ function ContactMiddleSection() {
     return (
         <div className="contact-page">
             <section className="contact-section">
-                <h2>Contact Us</h2>
+                <h3>Contact Us</h3>
                 <p>
                     We'd love to hear from you! Whether you have a question about our services, need a quote, or just want to chat about your next project, feel free to reach out.
                 </p>
-                <br/>
-                
+                <br />
 
                 {/* Contact Form */}
                 <form className="contact-form" ref={form} onSubmit={sendEmail}>
@@ -54,4 +61,4 @@ function ContactMiddleSection() {
     );
 }
 
-export default ContactMiddleSection
+export default ContactMiddleSection;

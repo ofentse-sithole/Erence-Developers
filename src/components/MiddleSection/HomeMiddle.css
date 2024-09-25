@@ -135,7 +135,7 @@ body {
     background-color: #fff;
 }
 
-.projects h2 {
+.projects h2, h3 {
     font-size: 2em;
     color: #007bff;
     margin-bottom: 20px;

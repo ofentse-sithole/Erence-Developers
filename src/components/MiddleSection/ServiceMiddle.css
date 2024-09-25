@@ -4,10 +4,8 @@
     min-height: 100vh;
     padding: 60px 20px;
     display: block;
-    /* Ensure block-level layout */
     box-sizing: border-box;
     text-align: left;
-    /* Ensures all text in this section is left-aligned */
 }
 
 p {
@@ -31,7 +29,6 @@ h3 {
     max-width: 1000px;
     padding: 0 20px;
     text-align: center;
-    /* Align headings to the left */
     margin: 0 auto;
 }
 
