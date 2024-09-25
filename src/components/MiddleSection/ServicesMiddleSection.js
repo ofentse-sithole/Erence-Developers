@@ -22,10 +22,10 @@ function ServicesMiddleSection() {
       {/* Web Development Section */}
       <h3 id="web-development" >Web Development</h3>
       <p>
-        Our web development services are focused on building robust, scalable, and secure websites.
-        We leverage cutting-edge technologies such as React, Node.js, and cloud computing to deliver
-        sites that perform exceptionally well. Whether it's an eCommerce platform, a corporate website,
-        or a dynamic web app, we ensure your web presence is optimized for search engines and mobile devices.
+          Our web development services are designed to create powerful, scalable, and secure websites 
+          tailored to your needs. We deliver high-performance sites, whether you're looking for an 
+          eCommerce platform, corporate website, or dynamic web app. Our focus is on ensuring your online 
+          presence is fast, mobile-friendly, and optimized for search engines.
       </p>
 
       <br />
