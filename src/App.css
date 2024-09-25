@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 
 .home,
@@ -10,12 +11,12 @@
 .about,
 .contact,
 .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
+    display: block; /* Remove flex so the content is not centered */
     font-size: 3rem;
+    padding: 20px 40px; /* Add padding for better layout */
+    text-align: left; /* Align text to the left */
 }
+
 
 .services {
    /*background-image: url('/images/service-background.jpg');*/

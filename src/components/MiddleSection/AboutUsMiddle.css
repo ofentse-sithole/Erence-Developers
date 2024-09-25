@@ -6,20 +6,7 @@
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-sizing: border-box;
-}
-
-/* Section Styles */
-.section {
-    width: 100%;
-    max-width: 1500px;
-    padding: 40px 20px;
-    text-align: center;
-    margin-bottom: 40px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px #fff7f7;
-    border-radius: 4px;
 }
 
 /* Heading styles */
@@ -30,32 +17,40 @@ h2 {
 }
 
 /* Paragraph styles */
-p {
+.about-page p {
     font-size: 1.2em;
     color: #0f0f0f;
     line-height: 1.8;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    text-align: justify;
+    text-align: left;
     padding: 0 20px;
+    width: 100%;
+}
+
+#our-mission{
+    background-color: #fff;
+        padding: 60px 20px;
+        text-align: left;
+        border-radius: 8px;
+        margin-bottom: 40px;
+        width: 100%;
 }
 
 /* Our Values Section */
 #about-values {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 60px 20px;
-    text-align: justify;
+    text-align: left;
     border-radius: 8px;
     margin-bottom: 40px;
+    width: 100%;
 }
 
 #about-values ul {
     text-align: left;
     margin: 0 auto;
-    max-width: 800px;
     padding: 0;
     list-style-type: none;
+    width: 100%;
 }
 
 #about-values li {
@@ -63,20 +58,21 @@ p {
     line-height: 1.8;
     margin-bottom: 10px;
     padding-left: 20px;
-    position: relative;
+    position: center;
+    width: 100%;
 }
 
 #about-values li:before {
-    content: '•'; /* Add bullet point */
-    color: #007bff; /* Bullet color */
-    position: absolute;
+    content: '•';
+    color: #007bff;
+    position: center;
     left: 0;
     font-size: 1.3em;
     top: 0;
 }
 
 #about-values strong {
-    color: #007bff; /* Highlight the value names */
+    color: #007bff;
 }
 
 /* Responsive Design */
@@ -85,19 +81,16 @@ p {
         padding: 20px;
     }
 
-    .section {
-        padding: 20px 10px; /* Reduced padding for smaller screens */
-        max-width: 100%; /* Make sure it fits smaller screens */
-    }
-
     h2 {
-        font-size: 1.8em; /* Reduce font size for small devices */
+        font-size: 1.8em;
+        /* Reduce font size for small devices */
     }
 
     p {
-        font-size: 0.9em; /* Reduce font size for readability on smaller screens */
-        line-height: 1.6; /* Adjust line height for better spacing */
-        margin: 0 10px; /* Reduce margin for better fit */
-        text-align: justify; /* Justify text for better alignment */
+        font-size: 0.9em;
+        line-height: 1.6;
+        margin: 0 10px;
+        width: 100%;
+        text-align: justify;
     }
 }

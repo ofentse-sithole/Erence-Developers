@@ -278,9 +278,11 @@ p {
     .services p,
     .portfolio p,
     .testimonials p {
-        font-size: 1em;
-        line-height: 1.5; /* Adjust line height for better spacing */
-        margin: 0 10px; /* Reduce margin for better fit */
+        font-size: 0.9em;
+        line-height: 1.6;
+        margin: 0 10px;
+        width: 100%;
+        text-align: justify;
     }
     
 

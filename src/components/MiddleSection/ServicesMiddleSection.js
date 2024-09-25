@@ -1,69 +1,74 @@
 import React from 'react'
 import './ServiceMiddle.css'
+import './HomeMiddle.css'
 
 function ServicesMiddleSection() {
   return (
     <div className="service-page">
-            {/* Services Section */}
-            <section className="service-section">
-                <h2>Our Services</h2>
-                <p>
-                    At Erence Developers, we specialize in creating exceptional web development services that 
-                    are tailored to meet your unique business needs. Our team is committed to delivering 
-                    responsive, user-friendly, and visually appealing websites that provide an outstanding user experience.
-                </p>
-            </section>
+      {/* Services Section */}
+      <div className= "about-us">
+      <h3>Our Services</h3>
+      <p>
+        At Erence Developers, we provide top-tier web and mobile development services. Our goal is to
+        help businesses harness the power of technology, offering innovative and scalable solutions that
+        are tailored to your needs. Whether you're a startup or an established business, we are here to
+        support your digital transformation journey.
+      </p>
 
-            {/* Web Development Section */}
-          <section id="web-development" className="service-section">
-                <h3>Web Development</h3>
-                <p>
-                    Our web development services are designed to transform your ideas into a 
-                    digital reality. We build custom websites using the latest technologies 
-                    and best practices to ensure they are fast, secure, and optimized for search engines.
-                </p>
-            </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* Web Development Section */}
+      <h3 id="web-development" >Web Development</h3>
+      <p>
+        Our web development services are focused on building robust, scalable, and secure websites.
+        We leverage cutting-edge technologies such as React, Node.js, and cloud computing to deliver
+        sites that perform exceptionally well. Whether it's an eCommerce platform, a corporate website,
+        or a dynamic web app, we ensure your web presence is optimized for search engines and mobile devices.
+      </p>
 
-            {/* Coming Soon: Mobile Development Section */}
-          <section id="mobile-development" className="mobile-development">
-                <h3>Mobile Development</h3>
-                <p>
-                    Stay tuned for our new mobile development services, designed to bring your ideas 
-                    to life on any device. Our mobile solutions will be tailored to enhance user 
-                    engagement and provide a seamless experience across all platforms.
-                </p>
-            </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* Mobile Development Section */}
+      <h3 id="mobile-development">Mobile Development</h3>
+      <p>
+        With mobile usage continuing to rise, we provide solutions that work seamlessly across all platforms.
+        Our mobile apps are designed with user experience in mind, ensuring that your customers have an engaging
+        and intuitive experience on both iOS and Android. Stay tuned for our upcoming mobile app development services.
+      </p>
 
-          {/* Coming Soon: Mobile Development Section */}
-          <section id="custom-development" className="mobile-development">
-              <h3>Custom Development</h3>
-              <p>
-                  We understand that every business has unique requirements. 
-                  That's why we offer custom software development solutions 
-                  tailored to your specific needs. Our team is skilled in 
-                  creating bespoke applications, systems integrations, and 
-                  automation tools that enhance your business operations. 
-                  Whether you need a custom CRM, inventory management system, 
-                  or any other specialized software, we can build a solution that 
-                  fits your goals perfectly. Our custom solutions are designed to 
-                  improve efficiency, reduce costs, and drive growth.
-              </p>
-          </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* Custom Development Section */}
+      <h3 id="custom-development" >Custom Development</h3>
+      <p>
+        Every business is unique, and so are its software needs. At Erence Developers, we offer custom software
+        solutions that are crafted specifically for your business. Whether you're looking to automate internal
+        processes or create a bespoke system to streamline operations, our team can develop a solution that
+        drives efficiency and growth. From custom CRM solutions to advanced system integrations, we bring your
+        vision to life with tailor-made software.
+      </p>
 
-      {/* Coming Soon: Mobile Development Section */}
-      <section id="web-hosting" className="mobile-development">
-        <h3>Website Hosting</h3>
-        <p>
-          At Erence Developers, we offer reliable and secure 
-          website hosting solutions to ensure your online 
-          presence is always accessible. Our hosting services 
-          provide the necessary technology and resources to keep your 
-          website running smoothly, with 24/7 support and advanced security 
-          measures. Whether you’re launching a new site or looking to improve 
-          your current hosting, we have the expertise to meet your needs.
-        </p>
-      </section>
-        </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      {/* Website Hosting Section */}
+      <h3 id="web-hosting">Website Hosting</h3>
+      <p>
+        Our website hosting services ensure that your website is always up and running, with minimal downtime.
+        We provide secure and scalable hosting solutions that are tailored to your business needs. Whether you're
+        launching a small site or managing a large online store, our hosting packages offer the speed, security,
+        and reliability required for an excellent user experience.
+      </p>
+      </div>
+    </div>
   )
 }
 

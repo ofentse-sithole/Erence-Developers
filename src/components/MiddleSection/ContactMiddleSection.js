@@ -27,6 +27,8 @@ function ContactMiddleSection() {
                 <p>
                     We'd love to hear from you! Whether you have a question about our services, need a quote, or just want to chat about your next project, feel free to reach out.
                 </p>
+                <br/>
+                
 
                 {/* Contact Form */}
                 <form className="contact-form" ref={form} onSubmit={sendEmail}>

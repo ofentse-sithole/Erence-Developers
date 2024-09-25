@@ -1,89 +1,61 @@
 .service-page {
     background-color: #fff;
-    /* White background for the entire page */
     width: 100%;
     min-height: 100vh;
-    /* Full viewport height */
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 60px 20px;
+    display: block;
+    /* Ensure block-level layout */
     box-sizing: border-box;
-    /* Include padding in width and height */
-}
-
-/* Section Styles */
-.service-section,
-.web-development,
-.mobile-development {
-    width: 100%;
-    max-width: 1500px;
-    padding: 40px 20px;
     text-align: left;
-    margin-bottom: 40px;
-    background-color: #fff;
-    border-radius: 8px;
+    /* Ensures all text in this section is left-aligned */
 }
 
-/* Heading styles */
-h2 {
-    font-size: 3em;
-    color: #007bff;
-    /* Primary color for headings */
-    margin-bottom: 20px;
-    text-align: center;
-    /* Center headings for emphasis */
-}
-
-h3 {
-    font-size: 3em;
-    color: #007bff;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* Paragraph styles */
 p {
-    font-size: 1.2em;
-    /* Adjusted font size for readability */
+    font-size: 1.4em;
     color: #0f0f0f;
-    line-height: 1.8;
-    /* Increased line height for better spacing */
+    line-height: 2;
     margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    /* Allow more width for paragraph text */
-    text-align: justify;
-    /* Justify text to fill the space */
+    max-width: 1000px;
+    /* Limit the width of text */
     padding: 0 20px;
-    /* Add padding for inner spacing */
+    /* Add padding to ensure it looks good */
+    text-align: left;
+    /* Align text to the left */
 }
 
-/* Responsive Design */
+h2,
+h3 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    padding: 0 20px;
+    text-align: center;
+    /* Align headings to the left */
+    margin: 0 auto;
+}
+
+.service-page-container {
+    max-width: 1200px;
+    /* Ensure the content has a container */
+    margin: 0 auto;
+    /* Centers the container itself */
+    text-align: left;
+    /* Align content to the left within the container */
+}
+
 @media (max-width: 768px) {
     .service-page {
         padding: 20px;
     }
 
-    .service-section,
-    .web-development,
-    .mobile-development {
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
+    h2,
     h3 {
         font-size: 1.5em;
     }
 
     p {
         font-size: 1em;
-        padding: 0 10px;
-        line-height: 1.5; /* Adjust line height for better spacing */
-        margin: 0 10px; /* Reduce margin for better fit */
-        /* Less padding on smaller screens */
+        line-height: 1.5;
     }
 }

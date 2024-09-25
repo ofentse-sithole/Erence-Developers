@@ -71,16 +71,16 @@ function HomeMiddleSection() {
         <div className='color'>
         <div className="home-page" >
             {/* Hero Section */}
-            <section className="hero">
+            <div className="hero">
                 <h1>Transforming Ideas into Digital Experiences</h1>
                 <p>Your partner in innovative website development. Mobile solutions coming soon.</p>
                 <button className="cta-button" onClick={handleGetStartedClick}>
                 Get Started
             </button>
-            </section>
+            </div>
 
             {/* About Us Section */}
-            <section id="about" className="about-us">
+            <div id="about" className="about-us">
                 <h2>About Us</h2>
                 <p>
                         Erence Developers is a forward-thinking technology company committed to 
@@ -98,10 +98,10 @@ function HomeMiddleSection() {
                          seeking complex software solutions, Erence Developers is your trusted partner in 
                          navigating the digital landscape.
                 </p>
-            </section>
+            </div>
 
             {/* Updated Services Section */}
-            <section id="service" className="about-us">
+            <div id="service" className="about-us">
                 <h2>Our Services</h2>
                 <p>
                         At Erence Developers, we provide a comprehensive range of services 
@@ -122,17 +122,17 @@ function HomeMiddleSection() {
                         technology solutions.
                 </p>
                 
-            </section>
+            </div>
 
             {/* Portfolio Section */}
                 <div className="home-middle-section">
-                    <section id="project" className="projects">
+                    <div id="project" className="projects">
                         <h2>Our Projects</h2>
                         <p>Projects Completed Successfully</p>
                         <div className="project-box">
                             <span className="project-count">{projectCount}</span>
                         </div>
-                    </section>
+                    </div>
                 </div>
 
                 <div id="client" className="home-middle-section">
@@ -148,13 +148,13 @@ function HomeMiddleSection() {
                 </div>
 
             {/* Testimonials Section */}
-                <section id="testimonial" className="testimonials">
+                <div id="testimonial" className="testimonials">
                 <h2>What Our Clients Say</h2>
                 <p>
                     "Erence Developers transformed our vision into a beautiful website. Highly recommended!"
                 </p>
                 {/* More testimonials can be added here */}
-            </section>
+            </div>
         </div>
         </div>
     );

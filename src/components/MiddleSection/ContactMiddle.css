@@ -96,7 +96,11 @@ textarea {
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.9em;
+        line-height: 1.6;
+        margin: 0 10px;
+        width: 100%;
+        text-align: justify;
     }
 
     .submit-button {
