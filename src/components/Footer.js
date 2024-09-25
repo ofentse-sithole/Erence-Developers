@@ -51,8 +51,8 @@ function Footer() {
                     <h4>Social Media</h4>
                     <ul>
                         <li><a href="https://www.instagram.com/erence_developers/?hl=en" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagramSquare} /></a></li>
-                        <li><a href="https://www.linkedin.com/company/erence-developers" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
                         <li><a href="https://web.facebook.com/profile.php?id=61565941095239" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                        {/*<li><a href="https://www.linkedin.com/company/erence-developers" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>*/}
                     </ul>
                 </div>
             </div>
