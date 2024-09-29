@@ -8,7 +8,8 @@ function HomeMiddleSection() {
 
     const [activeSlide, setActiveSlide] = useState(0); // For active slide
     const logos = [
-        { id: 1, name: 'Tacit Group Supply Co.', img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png', url: 'https://tacit-group-supply-co-yacx.vercel.app/'}
+        { id: 1, name: 'Tacit Group Supply Co.', img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png', url: 'https://tacit-group-supply-co-yacx.vercel.app/'},
+        { id: 2, name: 'Opel Stop.', img: process.env.PUBLIC_URL + '/images/Opel_Logo.png', url: 'https://opel-stop.vercel.app/' }
     ];
 
     // Auto-slide every 5 seconds
@@ -51,7 +52,7 @@ function HomeMiddleSection() {
     const [projectCount, setProjectCount] = useState(0); // State to manage the running number
 
     useEffect(() => {
-        const totalProjects = 1; // Total number of projects
+        const totalProjects = 2; // Total number of projects
         let count = 0; // Start count
         const incrementTime = 100; // Time interval for increments (in milliseconds)
 
