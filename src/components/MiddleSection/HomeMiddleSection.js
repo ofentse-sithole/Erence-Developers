@@ -84,43 +84,31 @@ function HomeMiddleSection() {
             <div id="about" className="about-us">
                 <h3>About Us</h3>
                 <p>
-                        Erence Developers is a forward-thinking technology company committed to 
-                        delivering exceptional digital solutions tailored to your business needs. 
-                        With a passionate team of experienced developers, designers, and strategists, 
-                        we specialize in creating high-performance websites, mobile applications, and 
-                        custom software that drive growth and enhance user engagement. Our mission is 
-                        to empower businesses through innovative technology, providing them with the 
-                        tools they need to succeed in an increasingly digital world. At Erence Developers, 
-                        we value integrity, creativity, and excellence, always striving to exceed client 
-                        expectations by delivering projects on time, within budget, and to the highest 
-                        quality standards. We believe in fostering strong relationships with our clients, 
-                        built on trust and a deep understanding of their unique challenges and objectives.
-                         Whether you’re a startup looking to establish an online presence or a large enterprise 
-                         seeking complex software solutions, Erence Developers is your trusted partner in 
-                         navigating the digital landscape.
+                        Erence Developers delivers tailored digital solutions to drive business 
+                        growth. We specialize in high-performance websites, mobile apps, and custom 
+                        software. With a focus on integrity and excellence, we provide innovative, 
+                        on-time solutions that meet your needs in a fast-paced digital world.
                 </p>
+
+                    {/* Video Section */}
+                    <br/>
+                    <div className="video">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="videos/Erence_Developers_Video.mp4" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
             </div>
 
             {/* Updated Services Section */}
             <div id="service" className="about-us">
                 <h3>Our Services</h3>
                 <p>
-                        At Erence Developers, we provide a comprehensive range of services 
-                        designed to meet your digital needs. Our web development team creates 
-                        modern, responsive, and user-friendly websites that are optimized for 
-                        performance across all devices, whether you need an e-commerce platform, 
-                        a corporate site, or a custom web solution. We also specialize in mobile 
-                        app development for iOS and Android, delivering high-quality, intuitive apps 
-                        with seamless user experiences from design to deployment. For businesses with 
-                        unique requirements, we offer bespoke software solutions, including custom 
-                        applications and systems integrations to enhance operational efficiency and 
-                        drive growth. Additionally, our consulting services guide you through digital 
-                        transformation, while our SEO and digital marketing strategies help you reach 
-                        your target audience and increase conversions. To ensure your business operates 
-                        efficiently, we provide cloud integration and management services for scalable, 
-                        secure, and cost-effective solutions. At Erence Developers, we’re committed to 
-                        helping you achieve your business goals through innovative and tailored 
-                        technology solutions.
+                        At Erence Developers, we create modern, responsive websites and mobile 
+                        apps for iOS and Android, tailored to your needs. From custom software 
+                        solutions to SEO and cloud integration, we help businesses grow with 
+                        innovative digital solutions.
                 </p>
                 
             </div>
@@ -153,6 +141,12 @@ function HomeMiddleSection() {
                 <h3>What Our Clients Say</h3>
                 <p>
                     "Erence Developers transformed our vision into a beautiful website. Highly recommended!"
+                    - Tacit Group Supply Co.
+                </p>
+                <br/>
+                <p>
+                        "Erence Developers brought our ideas to life with a sleek and professional website. Truly exceptional service!"
+                        - Opel Stop
                 </p>
                 {/* More testimonials can be added here */}
             </div>

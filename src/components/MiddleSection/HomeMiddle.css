@@ -81,6 +81,14 @@ body {
     color: #fff;
 }
 
+
+.video {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    /* Temporary for debugging */
+}
+
 /* About Us and Services Section */
 .about-us,
 .services {
