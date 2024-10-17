@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    /* Ensures consistent sizing across all elements */
+}
+
 .service-page {
     background-color: #fff;
     width: 100%;

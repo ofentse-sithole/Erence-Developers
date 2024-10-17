@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 video{
     object-fit: cover;
     width: 100%;
@@ -5,6 +9,7 @@ video{
     position: fixed;
     z-index: -1; /*insures doesnt cover any other content*/
 }
+
 
 .section-container{
     /*background: url('') center center/cover no-repeat; /*add image instead of video*/

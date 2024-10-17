@@ -1,4 +1,9 @@
 /* General styles for the Contact page */
+* {
+    box-sizing: border-box;
+    /* Ensures consistent sizing across all elements */
+}
+
 .contact-page {
     background-color: #fff; /* White background for the entire page */
     width: 100%;

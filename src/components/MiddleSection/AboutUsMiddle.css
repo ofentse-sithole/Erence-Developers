@@ -1,4 +1,8 @@
 /* General styles for the About Us page */
+* {
+    box-sizing: border-box;
+}
+
 .about-page {
     background-color: #fff;
     width: 100%;

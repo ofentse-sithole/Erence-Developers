@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .service-container {
     background: url('/public/images/service-background.jpg') center center/cover no-repeat;
     /* Use image instead of video */
@@ -50,4 +54,5 @@
     .service-container>p {
         font-size: 20px;
     }
+    
 }
