@@ -75,7 +75,7 @@
 }
 
 @media screen and (max-width: 960px) {
-.navbar-image {
+    .navbar-image {
         height: 150px; /* Adjust the height for mobile screens */
     }
 
@@ -95,6 +95,7 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        overflow: hidden;
     }
 
     .nav-menu.active {
