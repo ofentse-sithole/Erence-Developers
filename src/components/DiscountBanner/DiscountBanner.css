@@ -1,0 +1,66 @@
+.discount-banner {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    z-index: 998;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    animation: scrollCenterToLeft 8s linear infinite;
+}
+
+@keyframes scrollRighttoLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Responsive for tablets */
+@media screen and (max-width: 768px) {
+    .banner-text {
+        font-size: 1rem;
+        /* Smaller text for tablets */
+    }
+
+    .discount-banner {
+        height: 40px;
+        /* Shorter banner on tablets */
+    }
+
+    .banner-text {
+        animation: scrollCenterToLeft 10s linear infinite;
+        /* Slower animation */
+    }
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 480px) {
+    .banner-text {
+        font-size: 0.9rem;
+        /* Even smaller text for mobile */
+    }
+
+    .discount-banner {
+        height: 40px;
+        /* Shorter banner height */
+    }
+
+    .banner-text {
+        animation: scrollCenterToLeft 12s linear infinite;
+        /* Slower animation for mobile */
+    }
+}
