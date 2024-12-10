@@ -2,10 +2,11 @@
     background: linear-gradient(90deg, rgb(61, 102, 249) 0%, rgb(87, 0, 105) 100%);
     height: 80px;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
 }

@@ -7,36 +7,56 @@
     background-color: #fff;
     width: 100%;
     min-height: 100vh;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
+    padding: 60px 20px;
+    /* Updated padding to match service page */
+    display: block;
+    /* Change flex-direction to block for consistency with service page */
+    text-align: left;
+    /* Ensure text aligns left as in service page */
     box-sizing: border-box;
 }
 
 /* Heading styles */
-h2, h3 {
+h2,
+h3 {
     font-size: 2.5em;
+    /* Same font size for consistency */
     color: #007bff;
     margin-bottom: 20px;
+    max-width: 1000px;
+    /* Same max-width to match service page */
+    padding: 0 20px;
+    /* Padding to match the service page */
+    text-align: center;
+    /* Center align headings as in the service page */
+    margin: 0 auto;
+    /* Ensure headings are centered */
 }
 
 /* Paragraph styles */
 .about-page p {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    /* Match the font size from service page */
     color: #0f0f0f;
-    line-height: 1.8;
-    text-align: left;
+    line-height: 2;
+    /* Line height consistency */
+    margin: 0 auto;
+    max-width: 1000px;
+    /* Limit the width to match service page */
     padding: 0 20px;
-    width: 100%;
+    /* Add padding for consistent layout */
+    text-align: left;
+    /* Align text to the left */
 }
 
-#our-mission{
+/* Our Mission Section */
+#our-mission {
     background-color: #fff;
-        padding: 60px 20px;
-        text-align: left;
-        border-radius: 8px;
-        margin-bottom: 40px;
-        width: 100%;
+    padding: 60px 20px;
+    text-align: left;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    width: 100%;
 }
 
 /* Our Values Section */
@@ -83,18 +103,22 @@ h2, h3 {
 @media (max-width: 768px) {
     .about-page {
         padding: 20px;
+        /* Adjust padding for smaller devices */
     }
 
-    h2 {
-        font-size: 1.8em;
-        /* Reduce font size for small devices */
+    h2,
+    h3 {
+        font-size: 1.5em;
+        /* Reduced font size for mobile */
     }
 
     p {
-        font-size: 0.9em;
-        line-height: 1.6;
+        font-size: 1em;
+        /* Smaller font size for mobile */
+        line-height: 1.5;
         margin: 0 10px;
         width: 100%;
         text-align: justify;
+        /* Justify text on mobile */
     }
 }
