@@ -9,10 +9,11 @@ function HomeMiddleSection() {
     const logos = [
         {
             id: 1,
-            name: 'Tacit Group Supply Co.',
-            img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png',
-            url: 'https://tacit-group-supply-co-yacx.vercel.app/',
-            testimony: "Tacit Group Supply Co."
+            name: 'CargoVertex Logistics',
+            img: process.env.PUBLIC_URL + '/images/cargovertex_logo.png',
+            url: 'https://cargovertex-logistics.vercel.app/',
+            testimony: "CargoVertex Logistics"
+            
         },
         {
             id: 2,
@@ -20,6 +21,13 @@ function HomeMiddleSection() {
             img: process.env.PUBLIC_URL + '/images/Opel_Logo.png',
             url: 'https://opel-stop.vercel.app/',
             testimony: "Opel Stop"
+        },
+        {
+            id: 3,
+            name: 'Tacit Group Supply Co.',
+            img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png',
+            url: 'https://tacit-group-supply-co-yacx.vercel.app/',
+            testimony: "Tacit Group Supply Co."
         }
     ];
 
@@ -149,7 +157,7 @@ function HomeMiddleSection() {
                     </div>
                 </div>
 
-                {/* Testimonials Section */}
+                {/* Testimonials Section 
                 <div id="testimonial" className="testimonials">
                     <h3>What Our Clients Say</h3>
                     <p>
@@ -162,7 +170,7 @@ function HomeMiddleSection() {
                         - Opel Stop
                     </p>
                     {/* More testimonials can be added here */}
-                </div>
+            {/*</div>*/}
             </div>
         </div>
     );
