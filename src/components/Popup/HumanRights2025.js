@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Popup.css';
 
-function BlackFridayPopUp({ onClose }) {
+function HumanRights2025({ onClose }) {
     return (
         <div className="popup-overlay">
             <div className="popup-content">
@@ -9,8 +9,8 @@ function BlackFridayPopUp({ onClose }) {
                     ×
                 </button>
                 <img
-                    src={process.env.PUBLIC_URL + '/images/BlackFriday.png'}
-                    alt="Black Friday Sale"
+                    src={process.env.PUBLIC_URL + '/public_holiday_images/21_March_2025.png'}
+                    alt="Human Rights 2025"
                     className="popup-image"
                 />
             </div>
@@ -18,4 +18,4 @@ function BlackFridayPopUp({ onClose }) {
     );
 }
 
-export default BlackFridayPopUp;
+export default HumanRights2025;
