@@ -76,7 +76,7 @@ function HomeMiddleSection() {
 
     const [projectCount, setProjectCount] = useState(0); // State to manage the running number
     useEffect(() => {
-        const totalProjects = 2; // Total number of projects
+        const totalProjects = 3; // Total number of projects
         let count = 0; // Start count
         const incrementTime = 100; // Time interval for increments (in milliseconds)
         const interval = setInterval(() => {
