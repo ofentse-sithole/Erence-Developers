@@ -14,16 +14,23 @@ function HomeMiddleSection() {
             url: 'https://cargovertex-logistics.vercel.app/',
             testimony: "CargoVertex Logistics"
             
+        },{
+        id: 2,
+        name: 'Harvest Quotient',
+        img: process.env.PUBLIC_URL + '/images/harvest_qoutient_logo.png',
+        url: 'https://harvest-quotient.vercel.app/',
+        testimony: "Harvest Quotient"
+            
         },
         {
-            id: 2,
+            id: 3,
             name: 'Opel Stop.',
             img: process.env.PUBLIC_URL + '/images/Opel_Logo.png',
             url: 'https://opel-stop.vercel.app/',
             testimony: "Opel Stop"
         },
         {
-            id: 3,
+            id: 4,
             name: 'Tacit Group Supply Co.',
             img: process.env.PUBLIC_URL + '/images/Tacit_Logo.png',
             url: 'https://tacit-group-supply-co-yacx.vercel.app/',
